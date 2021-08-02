@@ -1,0 +1,15 @@
+.detail {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+.resize {
+  max-width: 100%;
+  height: 540rpx;
+  width: 95%;
+  margin: 20rpx;
+  border-radius: 16rpx;
+  -webkit-box-shadow: 0 26rpx 54rpx -10rpx rgba(50, 50, 93, 0.25), 0 16rpx 32rpx -16rpx rgba(0, 0, 0, 0.3), 0 -12rpx 32rpx -12rpx rgba(0, 0, 0, 0.03);
+          box-shadow: 0 26rpx 54rpx -10rpx rgba(50, 50, 93, 0.25), 0 16rpx 32rpx -16rpx rgba(0, 0, 0, 0.3), 0 -12rpx 32rpx -12rpx rgba(0, 0, 0, 0.03);
+}
