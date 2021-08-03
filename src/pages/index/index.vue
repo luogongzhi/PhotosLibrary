@@ -16,18 +16,30 @@
           :has-more="infiniteloading.hasMore"
           @load-more="loadMore"
         >
-          <view
-            class="infiniteLi"
-            v-for="(item, index) in pictures"
-            :key="item.id"
-          >
-            <img
-              :src="`https://picsum.photos/id/${item.id}/200`"
-              class="resize"
-              @click="toDetail(index)"
-            />
-            <view>{{ index + "-" + item.author }}</view>
-          </view>
+          <!-- <nut-backtop height="2000px" :distance="100" :bottom="90">
+            <template v-slot:content> -->
+              <view
+                class="infiniteLi"
+                v-for="(item, index) in pictures"
+                :key="item.id"
+              >
+                <img
+                  :src="`https://picsum.photos/id/${item.id}/200`"
+                  class="resize"
+                  @tap="toDetail(index)"
+                />
+                <view>
+                  {{ index + "-" + item.author }}
+                  <nut-icon
+                    :name="item.is_follow == false ? 'addfollow' : 'heart-fill'"
+                    :key="item.id"
+                    class="follow"
+                    @tap="follow(item, index)"
+                  />
+                </view>
+              </view>
+            <!-- </template>
+          </nut-backtop> -->
         </nut-infiniteloading>
       </view>
     </nut-cell>
@@ -37,13 +49,10 @@
 <script>
 import { toRefs, reactive, onMounted, computed } from "vue";
 import { useStore } from "vuex";
-import Taro from "@tarojs/taro";
+import Taro from "@tarojs/taro";``
 export default {
   name: "Index",
   setup() {
-    const handleClick = () => {
-      console.log('触发返回顶部');
-    };
     const store = useStore();
     const state = reactive({
       pictures: computed(() => store.state.pictures),
@@ -92,8 +101,41 @@ export default {
         });
       },
 
+      follow: (item, index) => {
+        item.is_follow == false
+          ? methods.addfollow(index)
+          : methods.delfollow(item.id, index);
+          // console.log(item);
+      },
+
+      addfollow: (index) => {
+        store.commit("ADD_TO_MYFOLLOW", index);
+        methods.openToast("success", "已添加至收藏", false);
+      },
+
+      delfollow: (id, index) => {
+        store.commit("DEL_MYFOLLOW", { id: id, index: index });
+        methods.openToast("success", "已取消收藏", false);
+      },
+
       init: () => {
-        methods.loadPage(state.page);
+        try {
+          let pictures = Taro.getStorageSync("pictures");
+          let myfollow = Taro.getStorageSync("myfollow");
+          if (pictures) {
+            store.commit("UPDATE_PICTURE", JSON.parse(pictures));
+          } else {
+            methods.loadPage(state.page);
+          }
+          if (myfollow) {
+            store.commit("UPDATE_MYFOLLOW", JSON.parse(myfollow));
+          }
+        } catch (error) {
+          methods.openToast("fail", "同步数据失败");
+          console.log(error);
+        } finally {
+          state.toast.show = false;
+        }
       },
     };
 
@@ -103,7 +145,6 @@ export default {
     return {
       ...toRefs(state),
       ...methods,
-      handleClick
     };
   },
 };
@@ -136,5 +177,11 @@ export default {
   border-radius: 8px;
   box-shadow: 0 13px 27px -5px hsl(240deg 30% 28% / 25%),
     0 8px 16px -8px hsl(0deg 0% 0% / 30%), 0 -6px 16px -6px hsl(0deg 0% 0% / 3%);
+}
+
+.follow {
+  left: 30px;
+  top: 7px;
+  color: red;
 }
 </style>

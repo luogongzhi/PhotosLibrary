@@ -25,3 +25,8 @@
   -webkit-box-shadow: 0 26rpx 54rpx -10rpx rgba(50, 50, 93, 0.25), 0 16rpx 32rpx -16rpx rgba(0, 0, 0, 0.3), 0 -12rpx 32rpx -12rpx rgba(0, 0, 0, 0.03);
           box-shadow: 0 26rpx 54rpx -10rpx rgba(50, 50, 93, 0.25), 0 16rpx 32rpx -16rpx rgba(0, 0, 0, 0.3), 0 -12rpx 32rpx -12rpx rgba(0, 0, 0, 0.03);
 }
+.follow {
+  left: 60rpx;
+  top: 14rpx;
+  color: red;
+}

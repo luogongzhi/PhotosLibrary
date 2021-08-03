@@ -118,15 +118,15 @@ function _createForOfIteratorHelper(o, allowArrayLike) {
 /* unused harmony export TextArea */
 /* unused harmony export Toast */
 /* unused harmony export Uploader */
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js");
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper */ "./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js");
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js");
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper */ "./node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! vue */ "./node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! vue */ "./node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! vue */ "./node_modules/@vue/shared/dist/shared.esm-bundler.js");
@@ -163,7 +163,7 @@ var e = Object.defineProperty,
   }
 
   if (a) {
-    var _iterator = Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(a(t)),
+    var _iterator = Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_createForOfIteratorHelper__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"])(a(t)),
         _step;
 
     try {
@@ -275,7 +275,7 @@ var Z = K({
         var _ref2;
 
         var e = G;
-        return _ref2 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, e, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, "".concat(e, "--").concat(a.value), a.value), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, "".concat(e, "--").concat(n.value), n.value), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, "".concat(e, "--").concat(o.value), o.value), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, "".concat(e, "--plain"), r.value), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, "".concat(e, "--block"), p.value), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, "".concat(e, "--disabled"), s.value), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, "".concat(e, "--loading"), i.value), _ref2;
+        return _ref2 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, e, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, "".concat(e, "--").concat(a.value), a.value), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, "".concat(e, "--").concat(n.value), n.value), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, "".concat(e, "--").concat(o.value), o.value), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, "".concat(e, "--plain"), r.value), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, "".concat(e, "--block"), p.value), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, "".concat(e, "--disabled"), s.value), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref2, "".concat(e, "--loading"), i.value), _ref2;
       }),
       getStyle: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
         var e;
@@ -326,7 +326,7 @@ var ae = le({
   setup: function setup() {
     return {
       classes: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
-        return Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, te, !0);
+        return Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, te, !0);
       })
     };
   }
@@ -390,13 +390,13 @@ var ce = ie({
     }
   },
   emits: ["click"],
-  components: Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, ae.name, ae),
+  components: Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, ae.name, ae),
   setup: function setup(e, _ref4) {
     var t = _ref4.emit;
     var l = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       var _ref5;
 
-      return _ref5 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref5, se, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref5, "".concat(se, "--clickable"), e.isLink || e.to), _ref5;
+      return _ref5 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref5, se, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref5, "".concat(se, "--clickable"), e.isLink || e.to), _ref5;
     }),
         a = Object(vue_router__WEBPACK_IMPORTED_MODULE_12__[/* useRouter */ "a"])();
     return {
@@ -537,7 +537,7 @@ var ge = fe({
   },
   setup: function setup(e) {
     var t = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
-      return Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, ve, !0);
+      return Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, ve, !0);
     }),
         l = function l(e) {
       return e = (e = (e = (e = (e = (e = e.replace(/&quot;/g, '"')).replace(/&amp;/g, "&")).replace(/&lt;/g, "<")).replace(/&gt;/g, ">")).replace(/&nbsp;/g, " ")).replace(/&yen;/g, "￥");
@@ -625,7 +625,7 @@ var Ce = Se({
       classes: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
         var _ref9;
 
-        return _ref9 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref9, we, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref9, "avatar-" + a.value, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref9, "avatar-" + n.value, !0), _ref9;
+        return _ref9 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref9, we, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref9, "avatar-" + a.value, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref9, "avatar-" + n.value, !0), _ref9;
       }),
       styles: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
         return {
@@ -716,7 +716,7 @@ var $e = _e({
       classes: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
         var _ref11;
 
-        return _ref11 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref11, Ne, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref11, e.overlayClass, !0), _ref11;
+        return _ref11 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref11, Ne, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref11, e.overlayClass, !0), _ref11;
       }),
       style: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
         return i({
@@ -822,13 +822,13 @@ var Ve = Be({
         _Te = Te(function () {
       return e.lockScroll;
     }),
-        _Te2 = Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(_Te, 2),
+        _Te2 = Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(_Te, 2),
         a = _Te2[0],
         n = _Te2[1],
         o = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       var _ref13;
 
-      return _ref13 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref13, Ae, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref13, "round", e.round), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref13, "popup-".concat(e.position), !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref13, e.popClass, !0), _ref13;
+      return _ref13 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref13, Ae, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref13, "round", e.round), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref13, "popup-".concat(e.position), !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref13, e.popClass, !0), _ref13;
     }),
         s = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       return i({
@@ -998,7 +998,7 @@ var He = Re({
       classes: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
         var _ref14;
 
-        return _ref14 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref14, t, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref14, t + "-gutter", l), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref14, "nut-col-" + e.span, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref14, "nut-col-offset-" + e.offset, !0), _ref14;
+        return _ref14 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref14, t, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref14, t + "-gutter", l), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref14, "nut-col-" + e.span, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref14, "nut-col-offset-" + e.offset, !0), _ref14;
       }),
       style: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
         return {
@@ -1081,7 +1081,7 @@ var Xe = qe({
 var _J13 = J("toast"),
     Ue = _J13.create,
     We = Ue({
-  components: Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, Xe.name, Xe),
+  components: Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, Xe.name, Xe),
   props: {
     id: String,
     msg: String,
@@ -1240,7 +1240,7 @@ var _J14 = J("notify"),
     Ge = _J14.create;
 
 var Ke = Ge({
-  components: Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, Ve.name, Ve),
+  components: Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, Ve.name, Ve),
   props: {
     id: String,
     color: {
@@ -1345,7 +1345,7 @@ var tt = Ze({
     var t = _ref18.slots;
     return {
       classes: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
-        return Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, et, !0);
+        return Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, et, !0);
       })
     };
   }
@@ -1483,7 +1483,7 @@ var dt = ut({
     });
 
     var a = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
-      return Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, rt, !0);
+      return Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, rt, !0);
     }),
         n = function n() {
       var e;
@@ -1618,7 +1618,7 @@ var ft = vt({
         a = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       var _ref23;
 
-      return _ref23 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref23, yt, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref23, "show", l.backTop), _ref23;
+      return _ref23 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref23, yt, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref23, "show", l.backTop), _ref23;
     }),
         n = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       return {
@@ -1714,7 +1714,7 @@ var kt = ht({
       classes: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
         var _ref25;
 
-        return _ref25 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref25, gt, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref25, e.overlayClass, !0), _ref25;
+        return _ref25 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref25, gt, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref25, e.overlayClass, !0), _ref25;
       }),
       style: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
         return i({
@@ -1820,13 +1820,13 @@ St({
         _Te3 = Te(function () {
       return e.lockScroll;
     }),
-        _Te4 = Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(_Te3, 2),
+        _Te4 = Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(_Te3, 2),
         a = _Te4[0],
         n = _Te4[1],
         o = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       var _ref27;
 
-      return _ref27 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref27, wt, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref27, "round", e.round), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref27, "popup-".concat(e.position), !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref27, e.popClass, !0), _ref27;
+      return _ref27 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref27, wt, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref27, "round", e.round), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref27, "popup-".concat(e.position), !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref27, e.popClass, !0), _ref27;
     }),
         s = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       return i({
@@ -1982,7 +1982,7 @@ var _J21 = J("actionsheet"),
         t("close"), t("update:visible", !1);
       },
       classes: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
-        return Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, Dt, !0);
+        return Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, Dt, !0);
       })
     };
   }
@@ -2114,7 +2114,7 @@ var Vt = Ot({
       distance: 0
     }),
         n = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
-      return Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, zt, !0);
+      return Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, zt, !0);
     }),
         o = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       return {
@@ -2354,7 +2354,7 @@ var Ht = Mt({
         p = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       var _ref34;
 
-      return _ref34 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref34, Rt, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref34, "".concat(Rt, "-").concat(r.value), !0), _ref34;
+      return _ref34 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref34, Rt, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref34, "".concat(Rt, "-").concat(r.value), !0), _ref34;
     });
 
     return c(i({}, Object(vue__WEBPACK_IMPORTED_MODULE_9__[/* toRefs */ "s"])(o)), {
@@ -2431,7 +2431,7 @@ var Qt = Ut({
       var _ref36;
 
       var t = Wt;
-      return _ref36 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref36, t, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref36, "".concat(t, "-").concat(e.direction), !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref36, "".concat(t, "-dot"), !!e.progressDot), _ref36;
+      return _ref36 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref36, t, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref36, "".concat(t, "-").concat(e.direction), !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref36, "".concat(t, "-dot"), !!e.progressDot), _ref36;
     });
 
     return Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* provide */ "B"])("parent", {
@@ -2483,7 +2483,7 @@ var Kt = Jt({
         n = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       var _ref37;
 
-      return _ref37 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref37, Gt, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref37, "".concat(Gt, "-icon"), a.props.icon), _ref37;
+      return _ref37 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref37, Gt, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref37, "".concat(Gt, "-icon"), a.props.icon), _ref37;
     });
 
     var o;
@@ -2791,7 +2791,7 @@ var sl = ol({
     var l = Object(vue__WEBPACK_IMPORTED_MODULE_9__[/* ref */ "l"])(e.defaultIndex);
     return {
       classes: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
-        return Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, nl, !0);
+        return Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, nl, !0);
       }),
       handleLeft: function handleLeft() {
         t("on-click-back");
@@ -3109,7 +3109,7 @@ var bl = hl({
     var l = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       var _ref43;
 
-      return _ref43 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref43, gl, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref43, "".concat(gl, "--disabled"), e.disabled), _ref43;
+      return _ref43 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref43, gl, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref43, "".concat(gl, "--disabled"), e.disabled), _ref43;
     }),
         a = function a(l, _a2) {
       var n = Number(l).toFixed(Number(e.decimalPlaces));
@@ -3276,7 +3276,7 @@ var Dl = xl({
         a = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       var _ref45;
 
-      return _ref45 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref45, Cl, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref45, "".concat(Cl, "-disabled"), e.disabled), _ref45;
+      return _ref45 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref45, Cl, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref45, "".concat(Cl, "-disabled"), e.disabled), _ref45;
     }),
         n = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       return {
@@ -3683,7 +3683,7 @@ var Yl = jl({
     var t = _ref50.emit;
     return {
       classes: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
-        return Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, Fl, !0);
+        return Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, Fl, !0);
       }),
       onClick: function onClick(l, a) {
         if (e.disabled || e.readonly) return;
@@ -3777,7 +3777,7 @@ var Ul = Xl({
         var _ref53;
 
         var t = ql;
-        return _ref53 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref53, t, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref53, e.modelValue ? "switch-open" : "switch-close", !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref53, "".concat(t, "-disable"), e.disable), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref53, "".concat(t, "-base"), !0), _ref53;
+        return _ref53 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref53, t, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref53, e.modelValue ? "switch-open" : "switch-close", !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref53, "".concat(t, "-disable"), e.disable), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref53, "".concat(t, "-base"), !0), _ref53;
       }),
       style: Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
         return {
@@ -3939,9 +3939,9 @@ var Zl = Kl({
     },
         y = function y(t, l, a, n) {
       if (p(t, l, n) != "".concat(s.dayPrefix, "-disabled")) {
-        var _o = Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(l.curData);
+        var _o = Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(l.curData);
 
-        _o = n ? _o.splice(3) : _o.splice(0, 3), _o[2] = "number" == typeof t.day ? Jl.getNumTwoBit(t.day) : t.day, _o[3] = "".concat(_o[0], "-").concat(_o[1], "-").concat(_o[2]), _o[4] = Jl.getWhatDay(+_o[0], +_o[1], +_o[2]), s.isRange ? (2 == Object.values(s.currDate).length ? s.currDate = [_o[3]] : Jl.compareDate(s.currDate[0], _o[3]) ? Array.isArray(s.currDate) && s.currDate.push(_o[3]) : Array.isArray(s.currDate) && s.currDate.unshift(_o[3]), 2 != s.chooseData.length && s.chooseData.length ? Jl.compareDate(s.chooseData[3], _o[3]) ? s.chooseData = [Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(s.chooseData), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(_o)] : s.chooseData = [Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(_o), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(s.chooseData)] : s.chooseData = Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(_o)) : (s.currDate = _o[3], s.chooseData = Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(_o)), e.isAutoBackFill && !a && m();
+        _o = n ? _o.splice(3) : _o.splice(0, 3), _o[2] = "number" == typeof t.day ? Jl.getNumTwoBit(t.day) : t.day, _o[3] = "".concat(_o[0], "-").concat(_o[1], "-").concat(_o[2]), _o[4] = Jl.getWhatDay(+_o[0], +_o[1], +_o[2]), s.isRange ? (2 == Object.values(s.currDate).length ? s.currDate = [_o[3]] : Jl.compareDate(s.currDate[0], _o[3]) ? Array.isArray(s.currDate) && s.currDate.push(_o[3]) : Array.isArray(s.currDate) && s.currDate.unshift(_o[3]), 2 != s.chooseData.length && s.chooseData.length ? Jl.compareDate(s.chooseData[3], _o[3]) ? s.chooseData = [Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(s.chooseData), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(_o)] : s.chooseData = [Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(_o), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(s.chooseData)] : s.chooseData = Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(_o)) : (s.currDate = _o[3], s.chooseData = Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(_o)), e.isAutoBackFill && !a && m();
       }
     },
         v = function v(e) {
@@ -3974,12 +3974,12 @@ var Zl = Kl({
           n = {
         curData: e,
         title: "".concat(e[0], "\u5E74").concat(e[1], "\u6708"),
-        monthData: [].concat(Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(f(l, "prev")), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(f(a, "curr")))
+        monthData: [].concat(Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(f(l, "prev")), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(f(a, "curr")))
       };
       "next" == t ? s.endData && Jl.compareDate("".concat(s.endData[0], "-").concat(s.endData[1], "-").concat(Jl.getMonthDays(s.endData[0], s.endData[1])), "".concat(e[0], "-").concat(e[1], "-").concat(e[2])) || s.monthsData.push(n) : s.startData && Jl.compareDate("".concat(e[0], "-").concat(e[1], "-").concat(e[2]), "".concat(s.startData[0], "-").concat(s.startData[1], "-01")) ? s.unLoadPrev = !0 : s.monthsData.unshift(n);
     },
         h = function h() {
-      s.startData = e.startDate ? c(e.startDate) : "", s.endData = e.endDate ? c(e.endDate) : "", e.defaultValue ? s.currDate = s.isRange ? Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(e.defaultValue) : e.defaultValue : s.currDate = s.isRange ? [Jl.date2Str(new Date()), Jl.getDay(1)] : Jl.date2Str(new Date()), s.isRange && Array.isArray(s.currDate) ? (e.startDate && Jl.compareDate(s.currDate[0], e.startDate) && s.currDate.splice(0, 1, e.startDate), e.endDate && Jl.compareDate(e.endDate, s.currDate[1]) && s.currDate.splice(1, 1, e.endDate), s.defaultData = [].concat(Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(c(s.currDate[0])), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(c(s.currDate[1])))) : (e.startDate && Jl.compareDate(s.currDate, e.startDate) ? s.currDate = e.startDate : e.endDate && !Jl.compareDate(s.currDate, e.endDate) && (s.currDate = e.endDate), s.defaultData = Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(c(s.currDate))), g(s.defaultData, "next"), s.yearMonthTitle = s.monthsData[0].title;
+      s.startData = e.startDate ? c(e.startDate) : "", s.endData = e.endDate ? c(e.endDate) : "", e.defaultValue ? s.currDate = s.isRange ? Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(e.defaultValue) : e.defaultValue : s.currDate = s.isRange ? [Jl.date2Str(new Date()), Jl.getDay(1)] : Jl.date2Str(new Date()), s.isRange && Array.isArray(s.currDate) ? (e.startDate && Jl.compareDate(s.currDate[0], e.startDate) && s.currDate.splice(0, 1, e.startDate), e.endDate && Jl.compareDate(e.endDate, s.currDate[1]) && s.currDate.splice(1, 1, e.endDate), s.defaultData = [].concat(Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(c(s.currDate[0])), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(c(s.currDate[1])))) : (e.startDate && Jl.compareDate(s.currDate, e.startDate) ? s.currDate = e.startDate : e.endDate && !Jl.compareDate(s.currDate, e.endDate) && (s.currDate = e.endDate), s.defaultData = Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"])(c(s.currDate))), g(s.defaultData, "next"), s.yearMonthTitle = s.monthsData[0].title;
       var t = 1;
 
       do {
@@ -4713,7 +4713,7 @@ var Ba = Aa({
       var _ref60;
 
       var t = $a;
-      return _ref60 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref60, t, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref60, "".concat(t, "-disabled"), e.disabled), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref60, "".concat(t, "-show-number"), !e.hiddenRange), _ref60;
+      return _ref60 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref60, t, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref60, "".concat(t, "-disabled"), e.disabled), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref60, "".concat(t, "-show-number"), !e.hiddenRange), _ref60;
     }),
         v = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       return {
@@ -4767,10 +4767,10 @@ var Ba = Aa({
       wrapperStyle: v,
       buttonStyle: f,
       onClick: function () {
-        var _onClick = Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])( /*#__PURE__*/C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.mark(function _callee(t) {
+        var _onClick = Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])( /*#__PURE__*/C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.mark(function _callee(t) {
           var l, a, n, o, i, c, _a3, _e3, _t8;
 
-          return C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.wrap(function _callee$(_context) {
+          return C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.wrap(function _callee$(_context) {
             while (1) {
               switch (_context.prev = _context.next) {
                 case 0:
@@ -4791,7 +4791,7 @@ var Ba = Aa({
                   o = t.touches[0].clientX - n.left, i = n.width, c = Number(l) + o / i * m.value;
 
                   if (g(a)) {
-                    _a3 = Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(a, 2), _e3 = _a3[0], _t8 = _a3[1];
+                    _a3 = Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(a, 2), _e3 = _a3[0], _t8 = _a3[1];
                     C(c <= (_e3 + _t8) / 2 ? [c, _t8] : [_e3, c], !0);
                   } else C(c, !0);
 
@@ -4813,9 +4813,9 @@ var Ba = Aa({
         e.disabled || (p.start(t), o = e.modelValue, n = g(o) ? o.map(w) : w(o), r.value = "start");
       },
       onTouchMove: function () {
-        var _onTouchMove = Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])( /*#__PURE__*/C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.mark(function _callee2(l) {
+        var _onTouchMove = Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"])( /*#__PURE__*/C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.mark(function _callee2(l) {
           var i, c;
-          return C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.wrap(function _callee2$(_context2) {
+          return C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_2___default.a.wrap(function _callee2$(_context2) {
             while (1) {
               switch (_context2.prev = _context2.next) {
                 case 0:
@@ -5014,7 +5014,7 @@ var Ra = Ma({
     var l = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       var _ref62;
 
-      return _ref62 = {}, Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref62, Ea, !0), Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref62, "".concat(Ea, "--disabled"), e.disabled), _ref62;
+      return _ref62 = {}, Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref62, Ea, !0), Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])(_ref62, "".concat(Ea, "--disabled"), e.disabled), _ref62;
     }),
         a = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
       return {
@@ -5080,19 +5080,19 @@ Ra.render = function (e, t, l, a, n, o) {
 };
 
 var ja = function ja() {
-  Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(this, ja);
+  Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(this, ja);
 
   this.url = "", this.method = "post", this.xhrState = 200, this.timeout = 3e4, this.headers = {}, this.withCredentials = !1;
 };
 
 var Ya = /*#__PURE__*/function () {
   function Ya(e) {
-    Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(this, Ya);
+    Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(this, Ya);
 
     this.options = e;
   }
 
-  Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(Ya, [{
+  Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(Ya, [{
     key: "upload",
     value: function upload() {
       var e;
@@ -5109,7 +5109,7 @@ var Ya = /*#__PURE__*/function () {
         }, l.withCredentials = t.withCredentials, l.open(t.method, t.url, !0);
 
         for (var _i = 0, _Object$entries = Object.entries(t.headers); _i < _Object$entries.length; _i++) {
-          var _Object$entries$_i = Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(_Object$entries[_i], 2),
+          var _Object$entries$_i = Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(_Object$entries[_i], 2),
               _e4 = _Object$entries$_i[0],
               _a4 = _Object$entries$_i[1];
 
@@ -5156,7 +5156,7 @@ var _J46 = J("uploader"),
     Xa = _J46.create;
 
 var Ua = function Ua() {
-  Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(this, Ua);
+  Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])(this, Ua);
 
   this.status = "ready", this.uid = new Date().getTime().toString(), this.formData = {};
 };
@@ -5261,7 +5261,7 @@ var Wa = Xa({
 
     var l = Object(vue__WEBPACK_IMPORTED_MODULE_9__[/* reactive */ "j"])(e.fileList),
         a = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
-      return Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, qa, !0);
+      return Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, qa, !0);
     }),
         n = function n(a) {
       a.forEach(function (a) {
@@ -5272,7 +5272,7 @@ var Wa = Xa({
           n.url = e.url;
 
           for (var _i2 = 0, _Object$entries2 = Object.entries(e.data); _i2 < _Object$entries2.length; _i2++) {
-            var _Object$entries2$_i = Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(_Object$entries2[_i2], 2),
+            var _Object$entries2$_i = Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"])(_Object$entries2[_i2], 2),
                 _t9 = _Object$entries2$_i[0],
                 _l5 = _Object$entries2$_i[1];
 
@@ -5477,7 +5477,7 @@ var tn = Za({
     var t = _ref65.emit;
 
     var l = Object(vue__WEBPACK_IMPORTED_MODULE_8__[/* computed */ "f"])(function () {
-      return Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, en, !0);
+      return Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"])({}, en, !0);
     }),
         a = Object(vue__WEBPACK_IMPORTED_MODULE_9__[/* ref */ "l"])(null),
         n = Object(vue__WEBPACK_IMPORTED_MODULE_9__[/* reactive */ "j"])({
@@ -10750,7 +10750,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var config = {"pages":["pages/index/index","pages/detail/index"],"window":{"backgroundTextStyle":"light","navigationBarBackgroundColor":"#fff","navigationBarTitleText":"WeChat","navigationBarTextStyle":"black"}};
+var config = {"pages":["pages/index/index","pages/detail/index","pages/collect/index"],"window":{"backgroundTextStyle":"light","navigationBarBackgroundColor":"#fff","navigationBarTitleText":"WeChat","navigationBarTextStyle":"black"},"tabBar":{"list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"pages/asset/home.png","selectedIconPath":"pages/asset/home.png"},{"pagePath":"pages/collect/index","text":"我的收藏","iconPath":"pages/asset/collect.png","selectedIconPath":"pages/asset/collect.png"}]}};
 _tarojs_runtime__WEBPACK_IMPORTED_MODULE_2__["window"].__taroAppConfig = config
 var inst = App(Object(_tarojs_runtime__WEBPACK_IMPORTED_MODULE_2__["createVue3App"])(_node_modules_babel_loader_lib_index_js_app_js__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"], vue__WEBPACK_IMPORTED_MODULE_5__[/* h */ "p"], config))
 
@@ -10782,9 +10782,9 @@ Object(_tarojs_taro__WEBPACK_IMPORTED_MODULE_3__["initPxTransform"])({
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm-browser.js");
 /* harmony import */ var _tarojs_taro__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @tarojs/taro */ "./node_modules/@tarojs/taro/index.js");
 /* harmony import */ var _tarojs_taro__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_tarojs_taro__WEBPACK_IMPORTED_MODULE_3__);
@@ -10795,24 +10795,63 @@ Object(_tarojs_taro__WEBPACK_IMPORTED_MODULE_3__["initPxTransform"])({
 var store = vuex__WEBPACK_IMPORTED_MODULE_2__[/* createStore */ "a"]({
   state: function state() {
     return {
-      pictures: []
+      pictures: [],
+      myfollow: []
     };
   },
   mutations: {
     LOAD_PICTURE_MUTATIONS: function LOAD_PICTURE_MUTATIONS(state, pictures) {
+      for (var i in pictures) {
+        pictures[i].is_follow = false;
+      }
+
       state.pictures = state.pictures.concat(pictures);
+    },
+    SAVE_DATA: function SAVE_DATA(state) {
+      _tarojs_taro__WEBPACK_IMPORTED_MODULE_3___default.a.setStorage({
+        key: "pictures",
+        data: JSON.stringify(state.pictures)
+      });
+      _tarojs_taro__WEBPACK_IMPORTED_MODULE_3___default.a.setStorage({
+        key: "myfollow",
+        data: JSON.stringify(state.myfollow)
+      });
+    },
+    ADD_TO_MYFOLLOW: function ADD_TO_MYFOLLOW(state, index) {
+      state.pictures[index].is_follow = true;
+      state.pictures[index].photos_index = index;
+      state.myfollow.push(state.pictures[index]);
+      store.commit("SAVE_DATA");
+    },
+    DEL_MYFOLLOW: function DEL_MYFOLLOW(state, _ref) {
+      var id = _ref.id,
+          index = _ref.index;
+
+      for (var i in state.myfollow) {
+        if (state.myfollow[i].id == id) {
+          state.myfollow.splice(i, 1);
+          state.pictures[index].is_follow = false;
+          store.commit("SAVE_DATA");
+        }
+      }
+    },
+    UPDATE_MYFOLLOW: function UPDATE_MYFOLLOW(state, myfollow) {
+      state.myfollow = myfollow;
+    },
+    UPDATE_PICTURE: function UPDATE_PICTURE(state, pictures) {
+      state.pictures = pictures;
     }
   },
   actions: {
     LOAD_PICTURE_MUTATIONS: function () {
-      var _LOAD_PICTURE_MUTATIONS = Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])( /*#__PURE__*/C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(context, _ref) {
-        var _ref$page, page, _ref$limit, limit, url, res;
+      var _LOAD_PICTURE_MUTATIONS = Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"])( /*#__PURE__*/C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee(context, _ref2) {
+        var _ref2$page, page, _ref2$limit, limit, url, res;
 
-        return C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+        return C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                _ref$page = _ref.page, page = _ref$page === void 0 ? 1 : _ref$page, _ref$limit = _ref.limit, limit = _ref$limit === void 0 ? 5 : _ref$limit;
+                _ref2$page = _ref2.page, page = _ref2$page === void 0 ? 1 : _ref2$page, _ref2$limit = _ref2.limit, limit = _ref2$limit === void 0 ? 5 : _ref2$limit;
                 url = "https://picsum.photos/v2/list?page=".concat(page, "&limit=").concat(limit);
                 _context.next = 4;
                 return _tarojs_taro__WEBPACK_IMPORTED_MODULE_3___default.a.request({
