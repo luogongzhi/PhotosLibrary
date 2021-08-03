@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./",
-  "projectname": "demo-weapp",
-  "description": "demo-weapp",
+  "projectname": "PhotosLibrary",
+  "description": "an app to show photos",
   "appid": "wx1eaae36598199f6e",
   "setting": {
     "urlCheck": true,

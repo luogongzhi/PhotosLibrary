@@ -1,3 +1,3 @@
 export default {
-    navigationBarTitleText: '详情页'
+    navigationBarTitleText: 'PHOTOSLIBRARY-详情'
 }

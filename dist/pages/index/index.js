@@ -36,10 +36,10 @@ _index_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2 */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue */ "./node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js");
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue */ "./node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js");
 /* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm-browser.js");
@@ -51,13 +51,10 @@ _index_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a
 
 
 
+"";
 /* harmony default export */ __webpack_exports__["a"] = ({
   name: "Index",
   setup: function setup() {
-    var handleClick = function handleClick() {
-      console.log('触发返回顶部');
-    };
-
     var store = Object(vuex__WEBPACK_IMPORTED_MODULE_5__[/* useStore */ "b"])();
     var state = Object(vue__WEBPACK_IMPORTED_MODULE_3__[/* reactive */ "j"])({
       pictures: Object(vue__WEBPACK_IMPORTED_MODULE_4__[/* computed */ "f"])(function () {
@@ -84,9 +81,9 @@ _index_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a
         state.toast.cover = cover;
       },
       loadPage: function () {
-        var _loadPage = Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])( /*#__PURE__*/C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee(page) {
+        var _loadPage = Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"])( /*#__PURE__*/C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.mark(function _callee(page) {
           var res;
-          return C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee$(_context) {
+          return C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.wrap(function _callee$(_context) {
             while (1) {
               switch (_context.prev = _context.next) {
                 case 0:
@@ -136,16 +133,46 @@ _index_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a
           url: "/pages/detail/index?idx=".concat(index)
         });
       },
+      follow: function follow(item, index) {
+        item.is_follow == false ? methods.addfollow(index) : methods.delfollow(item.id, index); // console.log(item);
+      },
+      addfollow: function addfollow(index) {
+        store.commit("ADD_TO_MYFOLLOW", index);
+        methods.openToast("success", "已添加至收藏", false);
+      },
+      delfollow: function delfollow(id, index) {
+        store.commit("DEL_MYFOLLOW", {
+          id: id,
+          index: index
+        });
+        methods.openToast("success", "已取消收藏", false);
+      },
       init: function init() {
-        methods.loadPage(state.page);
+        try {
+          var pictures = _tarojs_taro__WEBPACK_IMPORTED_MODULE_6___default.a.getStorageSync("pictures");
+          var myfollow = _tarojs_taro__WEBPACK_IMPORTED_MODULE_6___default.a.getStorageSync("myfollow");
+
+          if (pictures) {
+            store.commit("UPDATE_PICTURE", JSON.parse(pictures));
+          } else {
+            methods.loadPage(state.page);
+          }
+
+          if (myfollow) {
+            store.commit("UPDATE_MYFOLLOW", JSON.parse(myfollow));
+          }
+        } catch (error) {
+          methods.openToast("fail", "同步数据失败");
+          console.log(error);
+        } finally {
+          state.toast.show = false;
+        }
       }
     };
     Object(vue__WEBPACK_IMPORTED_MODULE_4__[/* onMounted */ "x"])(function () {
       methods.init();
     });
-    return Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(Object(C_Users_Desktop_Vue_demo_weapp_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({}, Object(vue__WEBPACK_IMPORTED_MODULE_3__[/* toRefs */ "s"])(state)), methods), {}, {
-      handleClick: handleClick
-    });
+    return Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])(Object(C_Users_Desktop_Vue_PhotosLibrary_node_modules_babel_runtime_helpers_esm_objectSpread2__WEBPACK_IMPORTED_MODULE_0__[/* default */ "a"])({}, Object(vue__WEBPACK_IMPORTED_MODULE_3__[/* toRefs */ "s"])(state)), methods);
   }
 });
 
@@ -173,6 +200,8 @@ var _hoisted_2 = {
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_nut_toast = Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* resolveComponent */ "E"])("nut-toast");
 
+  var _component_nut_icon = Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* resolveComponent */ "E"])("nut-icon");
+
   var _component_nut_infiniteloading = Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* resolveComponent */ "E"])("nut-infiniteloading");
 
   var _component_nut_cell = Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* resolveComponent */ "E"])("nut-cell");
@@ -198,24 +227,33 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         onLoadMore: _ctx.loadMore
       }, {
         default: Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* withCtx */ "L"])(function () {
-          return [(Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* openBlock */ "A"])(true), Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* createBlock */ "g"])(vue__WEBPACK_IMPORTED_MODULE_0__[/* Fragment */ "b"], null, Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* renderList */ "C"])(_ctx.pictures, function (item, index) {
+          return [Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* createCommentVNode */ "h"])(" <nut-backtop height=\"2000px\" :distance=\"100\" :bottom=\"90\">\r\n            <template v-slot:content> "), (Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* openBlock */ "A"])(true), Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* createBlock */ "g"])(vue__WEBPACK_IMPORTED_MODULE_0__[/* Fragment */ "b"], null, Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* renderList */ "C"])(_ctx.pictures, function (item, index) {
             return Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* openBlock */ "A"])(), Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* createBlock */ "g"])("view", {
               class: "infiniteLi",
               key: item.id
             }, [Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* createVNode */ "l"])("img", {
               src: "https://picsum.photos/id/".concat(item.id, "/200"),
               class: "resize",
-              onClick: function onClick($event) {
+              onTap: function onTap($event) {
                 return _ctx.toDetail(index);
+              }
+            }, null, 40
+            /* PROPS, HYDRATE_EVENTS */
+            , ["src", "onTap"]), Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* createVNode */ "l"])("view", null, [Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* createTextVNode */ "k"])(Object(vue__WEBPACK_IMPORTED_MODULE_1__[/* toDisplayString */ "K"])(index + "-" + item.author) + " ", 1
+            /* TEXT */
+            ), Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* createVNode */ "l"])(_component_nut_icon, {
+              name: item.is_follow == false ? 'addfollow' : 'heart-fill',
+              key: item.id,
+              class: "follow",
+              onTap: function onTap($event) {
+                return _ctx.follow(item, index);
               }
             }, null, 8
             /* PROPS */
-            , ["src", "onClick"]), Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* createVNode */ "l"])("view", null, Object(vue__WEBPACK_IMPORTED_MODULE_1__[/* toDisplayString */ "K"])(index + "-" + item.author), 1
-            /* TEXT */
-            )]);
+            , ["name", "onTap"])])]);
           }), 128
           /* KEYED_FRAGMENT */
-          ))];
+          )), Object(vue__WEBPACK_IMPORTED_MODULE_0__[/* createCommentVNode */ "h"])(" </template>\r\n          </nut-backtop> ")];
         }),
         _: 1
         /* STABLE */
@@ -257,7 +295,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_tarojs_taro_loader_lib_raw_js_index_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/@tarojs/taro-loader/lib/raw.js!./index.vue */ "./node_modules/@tarojs/taro-loader/lib/raw.js!./src/pages/index/index.vue");
 
 
-var config = {"navigationBarTitleText":"首页"};
+var config = {"navigationBarTitleText":"PHOTOSLIBRARY-首页"};
 
 
 var inst = Page(Object(_tarojs_runtime__WEBPACK_IMPORTED_MODULE_0__["createPageConfig"])(_node_modules_tarojs_taro_loader_lib_raw_js_index_vue__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], 'pages/index/index', {root:{cn:[]}}, config || {}))
